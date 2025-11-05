@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+header {
+    background-color: #0077b6;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h2 {
+    margin: 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px;
+    min-height: 60vh;
+    text-align: center;
+}
+
+footer {
+    background-color: #0077b6;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.container {
+    background: white;
+    width: 350px;
+    margin: 80px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    padding: 30px;
+}
+
+.container h2 {
+    margin-bottom: 20px;
+    color: #0077b6;
+}
+
+.container label {
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.container input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #0077b6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    margin-top: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.container button:hover {
+    background-color: #005f87;
+}
+
+.error {
+    color: red;
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+    border: 1px solid #ddd;
+    padding: 12px;
+}
+
+table th {
+    background-color: #0077b6;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #e1f5fe;
+}
